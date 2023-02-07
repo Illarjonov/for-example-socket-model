@@ -11,7 +11,7 @@ export const AddNewMachine = ({
         setData(
             [...data]
                 .concat({
-                    type: getRandomType() ? "A" : "B",
+                    type: getRandomType() ? "А" : "Б",
                     overload: getRandomType(),
                     worked: getRandomType(),
                     temperature: getRandom(),
