@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+  margin-top: 200px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.MachineInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  width: 150px;
+  justify-content: flex-end;
+}
+
+.MachineInfo span {
+  padding-bottom: 25px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.MachineInfoName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  width: 150px;
+  justify-content: flex-end;
+}
+
+.MachineInfoName span {
+  cursor: pointer;
+  padding-bottom: 25px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* .MachineInfo div { */
+/* border-radius: 50px; */
+/* } */
+
+.CirculeInfo {
+  margin-bottom: 50px;
+  color: #000;
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CirculeInfo p {
+  font-size: 70px;
+  font-weight: 600;
+  padding-bottom: 16px;
+}
+
+.CirculeInfoAddNew {
+  cursor: pointer;
+  margin-bottom: 142px;
+  color: #000;
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  border: 4px solid #ccc;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CirculeInfoAddNew p {
+  font-size: 70px;
+  font-weight: 600;
+  padding-bottom: 16px;
+}
+
+.InformationsBlock {
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.InformationBlockName {
+  text-align: initial;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.MachineInfoBlock {
+  display: flex;
+}
+
+.menuSelected {
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  /* margin-top: 50px; */
+  padding: 10px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+}
+
+.menuSelected div {
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menuSelected div:hover {
+  border-radius: 5px;
+  background-color: #ccc;
+}
