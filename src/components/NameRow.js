@@ -25,7 +25,6 @@ const Menu = ({ setOpen, selected, setSelected }) => {
 
 
     const handleClick = (type) => {
-        console.log(type)
         setSelected(type)
         setOpen(false)
     }
